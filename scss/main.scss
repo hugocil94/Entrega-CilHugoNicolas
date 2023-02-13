@@ -1,18 +1,18 @@
 
+// UTILIDADES
+@import "./utilidades/reset";
 
 
-
+// SECCIONES 
 
 @import "./secciones/header";
 @import "./secciones/footer";
-@import "./index";
-@import "./quienesSomos";
-@import "./servicios";
-@import "./dondeEstamos";
-@import "./contacto";
-@import "./mediaqueries/tablet";
-@import "./mediaqueries/telefono";
-@import "./secciones/body";
+@import "./secciones/index";
+@import "./secciones/quienesSomos";
+@import "./secciones/servicios";
+@import "./secciones/dondeEstamos";
+@import "./secciones/contacto";
+
 
 
 

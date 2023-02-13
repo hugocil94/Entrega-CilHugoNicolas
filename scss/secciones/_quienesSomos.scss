@@ -1,0 +1,131 @@
+/* QUIENES SOMOS CSS*/
+
+.div__quienesSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+
+
+.presentacion__{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 400px;
+}
+
+.presentacion__texto{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    max-width: 100%;
+}
+
+.textoPresentacion{
+    text-align: center;
+    width: 19rem;
+    margin-right: 10rem
+}
+
+.licenciado{
+    text-decoration: underline;
+    width: 19rem;
+    margin-right: 10rem;
+}
+
+.imagenPresentacion{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 2px 2px white;
+    margin-bottom: 100px;
+    
+    
+
+}
+
+@media (max-width: 768px){
+
+.div__quienesSomos{
+    margin: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: max-content;
+    display: flex;
+    
+}
+
+.presentacion__{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.presentacion__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: max-content;
+}
+
+.textoPresentacion {
+    text-align: center;
+    width: 100vw;
+}
+
+.presentacion__imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+}
+
+@media (max-width: 420px){
+    .div__quienesSomos{
+        margin: 100px 0;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: max-content;
+        display: flex;
+        
+    }
+    
+    .presentacion__{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    
+    .presentacion__texto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        width: max-content;
+    }
+    
+    .textoPresentacion {
+        text-align: center;
+        width: 100vw;
+    }
+    
+    .presentacion__imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    }
