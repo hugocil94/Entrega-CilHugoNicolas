@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    /*Tamaño mediano*/
+     
+    /* INDEX */
+    .body nav {
+               display: flex;
+               flex-direction: column;
+          }
+    .divContainer {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto ;
+            justify-content: center;
+            max-width: 100%;
+            
+        }
+
+    .divContainer__imagen{
+            text-align: center;
+        }
+           
+    
+    /* QUIENES SOMOS*/
+
+.div__quienesSomos{
+    margin: 100px 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: max-content;
+    display: flex;
+    
+}
+
+.presentacion__{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.presentacion__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: max-content;
+}
+
+.textoPresentacion {
+    text-align: center;
+    width: 100vw;
+}
+
+.presentacion__imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+}

@@ -1,0 +1,56 @@
+h1{
+    display: flex;
+    font-weight: bold;
+    border: black;
+    justify-content: center;
+    margin: 1rem 0px;
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0px;
+}
+
+.divContainer{
+    display: flex;
+    border: black 1px solid;
+    width: 100%;
+    
+    }
+    
+    .divContainer__texto{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+    
+    }
+    
+    .divContainer__texto p{
+        text-align: start;
+        margin: 16px 16px;
+    }
+
+    .caja__menu--lista{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 20px 50px;
+        }
+        
+        .caja__menu--lista span{
+            font-size: 20px;
+            margin-bottom: 0.5rem;
+        }
+
+        .divContainer__imagen{
+            padding: 0px 20px;
+            margin: 16px 2px ;
+            flex-direction: column;
+            text-align: end;
+            }
+            .imgBody{
+                width: 400px;
+                height: 200px;
+            }

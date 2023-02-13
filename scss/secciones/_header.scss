@@ -1,0 +1,50 @@
+.colorNav{
+    background-color: black !important;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 20px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.hoverLink:hover{
+background-color: white;
+color: black;
+}
+
+.logoFisioactive{
+    width: 140px;
+    height: 110px;
+    border: solid white 2px;
+    padding: 1px;
+    margin: 12px 20px;
+}
+
+
+.nav__ul{
+display: flex;
+flex-direction: row;
+
+}
+
+.enlace__nav{
+
+ display: inline-block;
+ margin: 0px 14px;
+ border: 2px solid white;
+ padding: 10px;
+ border-radius: 10px 10px;
+}
+
+.enlace__nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}

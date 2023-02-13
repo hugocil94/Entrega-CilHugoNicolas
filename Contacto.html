@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+	<title>Contacto</title>
+</head>
+<body class="body">
+    <header>
+      <nav class="colorNav navbar navbar-expand-lg navbar bg-dark data-bs-theme=dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+           <img src="./documentación/fisioactive.jpg" alt="Logo Fisio Active" width="140px" height="110px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="hoverLink nav-link" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="hoverLink nav-link" href="./Quienes somos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="hoverLink nav-link" href="./Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="hoverLink nav-link" href="./Donde estamos.html">Donde Estamos</a>
+              </li>
+              <li class="nav-item">
+                 <a class="hoverLink nav-link" href="./Contacto.html"> <strong> Contacto </strong></a>
+               </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+         </header>
+
+ 
+    <main>    
+       <div class="formulario">
+       <form action="enviar.php" method="POST" enctype="multipart/form-data">
+         <fieldset>
+                <Legend> Envía tu comentario</Legend>
+                <div class="formulario__1"> 
+                <br>  
+                 <label for="nombreyapellido">Nombre y apellido</label>
+                 <input type="text" name="nombreyapellido" maxlength="100">	
+         
+                  <br>
+                  <br>
+                  
+                  <label for="password">Password</label>
+                  <input type="password">
+                  
+                  <br>
+                  <br>
+                  <textarea class="comentario" maxlength="500">Escribe tu comentario</textarea>
+                  
+                  <br>
+                  <br>
+         
+                  <p>¿Sos profesional de la salud?:</p>
+               
+                  <select name="profesionalDeLaSalud">
+         
+                                          <option value="SI">SI</option>
+                                          <option value="NO">NO</option>
+                                          <option value="OTRO">OTRO</option>
+         
+                  </select>
+                  
+                  
+                  <div>¿Queres que luego te contactemos?</div>
+                  
+                  <select name="Contacto">
+                     <option value="Si">Si</option>
+                     <option value="No">No</option>
+                  </select>
+                  
+                  <br>
+                  <br>
+         
+                  <input type="submit" name="submit" value="Enviar">
+                  <input type="reset" name="reset" value="Limpiar"> 
+               </div>
+                
+                  
+         </fieldset>
+          </form>
+       </div>
+    </main>
+
+
+    <footer>
+      <div class=" paddingFooter container-fluid text-center text-body-emphasis" >
+        <a  href="./index.html" ><img src="./documentación/fisioactive.jpg" alt="Fisio Active Logo" class="logoFisioactive logoFooter"></a>
+
+        <p class="small fs-6 textoFooter" > &copy; Todos los derechos reservados :: Argentina :: 2023</p>
+
+      </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
