@@ -8,3 +8,13 @@
 .mapa{
     margin: 100px 40px;
 }
+
+@media (max-width: 420px){
+
+    .mapa{
+        max-width: 420;
+        margin: 50px 3px;
+
+    }
+
+}

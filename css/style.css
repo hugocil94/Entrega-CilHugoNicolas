@@ -307,6 +307,11 @@ main h2 {
 .mapa {
   margin: 100px 40px; }
 
+@media (max-width: 420px) {
+  .mapa {
+    max-width: 420;
+    margin: 50px 3px; } }
+
 .body {
   background-image: linear-gradient(to bottom, black 80%, white);
   color: white;
