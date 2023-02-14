@@ -360,3 +360,9 @@ main h2 {
   width: 300px;
   max-width: 300px;
   min-width: 300px; }
+
+@media (max-width: 420px) {
+  .cajaForm {
+    width: 90vw; }
+  .legend {
+    text-align: center; } }
