@@ -43,9 +43,6 @@ nav {
   font-size: 20px;
   color: white; }
 
-.footer {
-  max-width: 100%; }
-
 .paddingFooter {
   padding: 12vw; }
 
@@ -56,11 +53,11 @@ nav {
 .logoFooter {
   margin-bottom: 1rem; }
 
-.body {
+.bodyIndez {
   background-image: linear-gradient(to bottom, black 80%, white);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: max-content; }
+  max-width: 100vw; }
 
 h1 {
   display: flex;
@@ -136,6 +133,12 @@ main h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px; } }
+
+.bodyQuienesSomoa {
+  background-image: linear-gradient(to bottom, black 80%, white);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100vw; }
 
 .div__quienesSomos {
   display: flex;
@@ -244,11 +247,11 @@ main h2 {
     margin-bottom: 100px; } }
 
 /* SERVICIOS */
-.body {
+.bodyServicios {
   background-image: linear-gradient(to bottom, black 80%, white);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: max-content; }
+  max-width: 100vw; }
 
 .containerServicios {
   width: 20rem;
@@ -309,6 +312,12 @@ main h2 {
     color: black;
     text-align: center; } }
 
+.bodyDondeEstamos {
+  background-image: linear-gradient(to bottom, black 80%, white);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100vw; }
+
 .mapa {
   margin: 0 350px; }
 
@@ -320,9 +329,15 @@ main h2 {
     max-width: 420;
     margin: 50px 3px; } }
 
+.bodyContacto {
+  background-image: linear-gradient(to bottom, black 80%, white);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100vw; }
+
 .formulario {
   padding: 15px 10px;
-  margin: 10px 300px 10px 30px; }
+  margin: 10px 300px 10px 50px; }
 
 .formulario__1 {
   padding: 15px 0px 15px 20px; }
