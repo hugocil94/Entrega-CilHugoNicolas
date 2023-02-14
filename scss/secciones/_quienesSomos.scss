@@ -1,5 +1,3 @@
-/* QUIENES SOMOS CSS*/
-
 .div__quienesSomos{
     display: flex;
     flex-direction: column;
@@ -91,41 +89,24 @@
 }
 
 @media (max-width: 420px){
-    .div__quienesSomos{
-        margin: 100px 0;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        max-width: max-content;
-        display: flex;
-        
-    }
-    
-    .presentacion__{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       
-    }
-    
-    .presentacion__texto{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 100px;
+
+    .body{
         width: max-content;
     }
-    
-    .textoPresentacion {
-        text-align: center;
-        width: 100vw;
+    .mainQuienesSomos{
+        width: 100%;
+    }
+
+    .div__quienesSomos{
+        margin-left: 20%;
+    }
+
+    .imagenPresentacion{
+     margin-right: 20px;
     }
     
-    .presentacion__imagen{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+    .textoPresentacion{
+        margin-left: 100px;
     }
-    
-    }
+}
+

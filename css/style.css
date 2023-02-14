@@ -7,7 +7,7 @@
   background-image: linear-gradient(to bottom, black 80%, white);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 100%; }
+  max-width: max-content; }
 
 .colorNav {
   background-color: black !important; }
@@ -79,13 +79,6 @@ nav {
 .logoFooter {
   margin-bottom: 1rem; }
 
-@media (max-width: 420px) {
-  .footerQuery {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; } }
-
 h1 {
   display: flex;
   font-weight: bold;
@@ -134,8 +127,8 @@ main h2 {
 
 @media (max-width: 768px) {
   .body nav {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    display: flex; }
   .divContainer {
     display: grid;
     grid-template-columns: auto;
@@ -161,7 +154,6 @@ main h2 {
     margin-bottom: 20px;
     margin-left: 20px; } }
 
-/* QUIENES SOMOS CSS*/
 .div__quienesSomos {
   display: flex;
   flex-direction: column;
@@ -228,30 +220,16 @@ main h2 {
     align-items: center; } }
 
 @media (max-width: 420px) {
-  .div__quienesSomos {
-    margin: 100px 0;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    max-width: max-content;
-    display: flex; }
-  .presentacion__ {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
-  .presentacion__texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 100px;
+  .body {
     width: max-content; }
+  .mainQuienesSomos {
+    width: 100%; }
+  .div__quienesSomos {
+    margin-left: 20%; }
+  .imagenPresentacion {
+    margin-right: 20px; }
   .textoPresentacion {
-    text-align: center;
-    width: 100vw; }
-  .presentacion__imagen {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
+    margin-left: 100px; } }
 
 /* SERVICIOS */
 .containerServicios {
