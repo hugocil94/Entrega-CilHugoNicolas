@@ -20,7 +20,7 @@
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    max-width: 100%;
+    
 }
 
 .textoPresentacion{
@@ -90,23 +90,67 @@
 
 @media (max-width: 420px){
 
-    .body{
-        width: max-content;
-    }
-    .mainQuienesSomos{
-        width: 100%;
-    }
-
     .div__quienesSomos{
-        margin-left: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        max-width: 100%;
     }
 
-    .imagenPresentacion{
-     margin-right: 20px;
+    .div__quienesSomos h1{
+        font-size: 2rem;
+    }
+    .div__quienesSomos h2{
+        font-size: 1rem;
+    }
+    
+    .PresentacionesCaja{
+        height: auto;
+        max-width: 420px;
+    }
+    
+    .presentacion__{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 0 0;
+        width: 420px;
+        height: 100%;
+        
+    }
+    
+    .presentacion__texto{
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        
     }
     
     .textoPresentacion{
-        margin-left: 100px;
+        text-align: center;
+        width: 420px;
+        margin-right: 2rem;
+        font-size: 1rem;
     }
-}
+    
+    .licenciado{
+        text-decoration: underline;
+    }
+    
+    .imagenPresentacion{
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 5px 5px;
+        box-shadow: 1px 1px 2px 2px white;
+        margin-bottom: 100px;
+        
+        
+    
+    }    
+    
 
+}
