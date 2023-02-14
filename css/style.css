@@ -298,6 +298,34 @@ main h2 {
   color: black;
   text-align: center; }
 
+@media (max-width: 420px) {
+  .containerServicios {
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    margin: 0 auto; }
+  .cardServicios {
+    display: inline-block;
+    width: 80vw;
+    height: 60vh;
+    margin: 40px 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease; }
+  .cardServicios:hover {
+    box-shadow: 5 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+  .imagenServicio {
+    width: 100%;
+    height: 65%;
+    object-fit: cover; }
+  .contenidoCard {
+    color: black;
+    text-align: center; } }
+
 .body {
   background-image: linear-gradient(to bottom, black 80%, white);
   color: white;
