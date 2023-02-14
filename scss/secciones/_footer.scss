@@ -1,31 +1,9 @@
-.cajaFooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 12px 20px;
-}
+.footer{
+max-width: 100%;}
 
-.cajaFooter__redes{
-    text-align: center;
-}
-
-
-
-.cajaFooter__imagen{
-    margin: 10px 0;
-}
-
-.cajaFooter__todos{
-    display:flex;
-    flex-direction: column;
-    width: 300px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-}
 
 .paddingFooter{
-    padding: 12vh;
+    padding: 12vw;
     
 }
 

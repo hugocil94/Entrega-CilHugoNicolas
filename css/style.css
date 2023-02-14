@@ -43,28 +43,11 @@ nav {
   font-size: 20px;
   color: white; }
 
-.cajaFooter {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 12px 20px; }
-
-.cajaFooter__redes {
-  text-align: center; }
-
-.cajaFooter__imagen {
-  margin: 10px 0; }
-
-.cajaFooter__todos {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 100px;
-  justify-content: center;
-  align-items: center; }
+.footer {
+  max-width: 100%; }
 
 .paddingFooter {
-  padding: 12vh; }
+  padding: 12vw; }
 
 .textoFooter {
   margin-top: 2rem;
@@ -326,25 +309,16 @@ main h2 {
     color: black;
     text-align: center; } }
 
-.body {
-  background-image: linear-gradient(to bottom, black 80%, white);
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: max-content; }
-
 .mapa {
-  margin: 100px 40px; }
+  margin: 0 350px; }
+
+.paddingFooter {
+  padding: 12vh; }
 
 @media (max-width: 420px) {
   .mapa {
     max-width: 420;
     margin: 50px 3px; } }
-
-.body {
-  background-image: linear-gradient(to bottom, black 80%, white);
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: max-content; }
 
 .formulario {
   padding: 15px 10px;
