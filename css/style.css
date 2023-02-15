@@ -358,3 +358,37 @@ main h2 {
   .mapa {
     max-width: 420;
     margin: 50px 3px; } }
+
+.EnviarCV {
+  background-image: url(../../documentación/GettyImages-1059422002-scaled.jpg);
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 6.25rem;
+  margin-top: 3.5rem; }
+
+.tituloEnviarCV {
+  color: black;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+  padding: 20vh 0; }
+
+.bannerFisioActive .subtitulo {
+  position: relative;
+  color: colorSecundario;
+  margin-bottom: 0.95em;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center; }
+
+.bannerFisioActive p {
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0 20px; }
