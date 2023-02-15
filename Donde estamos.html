@@ -44,12 +44,71 @@
 
     
        <main> 
-        <div class="CajaMapa">   
-             <div class="mapa">   
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113057.46043601913!2d-67.75925627087715!3d-        27.684984281337538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x969e30f162b7c3bf%3A0xd70071b33b64eb44!2sFiambala%2C%20Catamarca%2C%20Arge 
-            ntina!5e0!3m2!1ses-419!2ses!4v1674466657982!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="divDondeEstamos">
+             <div class="CajaMapa">   
+                  <div class="mapa">   
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113057.46043601913!2d-67.75925627087715!3d-        27.684984281337538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x969e30f162b7c3bf%3A0xd70071b33b64eb44!2sFiambala%2C%20Catamarca%2C%20Arge 
+                    ntina!5e0!3m2!1ses-419!2ses!4v1674466657982!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
              </div>
-        </div>    
+        
+               <div class="formulario">
+                 <form action="enviar.php" method="POST" enctype="multipart/form-data">
+                  <fieldset>
+                    <legend class="cajaForm legend">Envía tu comentario</Legend>
+                    <div class="formulario__1"> 
+                   
+                    <br>  
+                    
+                    <label class="cajaForm" for="nombreyapellido">Nombre y apellido</label>
+                    <input type="text" name="nombreyapellido" maxlength="100">	
+            
+                     <br>
+                     <br>
+                     
+                     <label class="cajaForm" for="password">Password</label>
+                     <input type="password">
+                     
+                     <br>
+                     <br>
+                     <textarea class="comentario" maxlength="500">Escribe tu comentario</textarea>
+                     
+                     <br>
+                     <br>
+            
+                     <p class="cajaForm">¿Sos profesional de la salud?:</p>
+                  
+                     <select name="profesionalDeLaSalud">
+            
+                                             <option value="SI">SI</option>
+                                             <option value="NO">NO</option>
+                                             <option value="OTRO">OTRO</option>
+            
+                     </select>
+                     
+                     
+                     <div class="cajaForm" >¿Queres que luego te contactemos?</div>
+                     
+                     <select name="Contacto">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                     </select>
+                     
+                     <br>
+                     <br>
+            
+                     <input type="submit" name="submit" value="Enviar">
+                     <input type="reset" name="reset" value="Limpiar"> 
+                  </div>
+                   
+                     
+            </fieldset>
+             </form>
+          </div>
+        
+        </div>
+
+
        </main>
 
 
