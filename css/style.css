@@ -360,11 +360,10 @@ main h2 {
     margin: 50px 3px; } }
 
 .EnviarCV {
-  background-image: url(../../documentación/kinesiologos.jpg);
+  background-image: url(https://img.freepik.com/foto-gratis/mujer-que-tiene-sesion-fisioterapia_23-2149115642.jpg?size=626&ext=jpg);
   width: 100vw;
   height: 50vh;
   background-size: cover;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   text-align: center;
