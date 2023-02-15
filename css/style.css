@@ -360,7 +360,7 @@ main h2 {
     margin: 50px 3px; } }
 
 .EnviarCV {
-  background-image: url(../../documentación/GettyImages-1059422002-scaled.jpg);
+  background-image: url(../../documentación/kinesiologos.jpg);
   width: 100vw;
   height: 50vh;
   background-size: cover;
@@ -377,7 +377,7 @@ main h2 {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 2em;
-  padding: 20vh 0; }
+  padding: 15vh 0; }
 
 .bannerFisioActive .subtitulo {
   position: relative;
