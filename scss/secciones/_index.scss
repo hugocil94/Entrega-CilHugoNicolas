@@ -75,16 +75,42 @@ main h2{
         grid-template-columns: auto;
         grid-template-rows: auto auto ;
         justify-content: center;
-        max-width: 100%;
+        max-width: 90%;
+        margin: 0 2rem;
                         
              }
+
+             .imgBody{
+                width: 80%;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                margin-bottom: 1rem;
+                
+             } 
             
         .divContainer__imagen{
                 text-align: center;
             }
-                       }
+        
+            .divContainer__imagen{
+                width: 100%;
+                height: auto;
+            }
+            
+            .divContainer__texto p {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 20px;
+            }
+        
+        
+        }
 
-                @media (max-width: 420px) {
+                
+ @media (max-width: 420px) {
                     /*Tamaño chico*/
                     
                     

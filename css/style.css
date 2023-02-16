@@ -114,9 +114,25 @@ main h2 {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     justify-content: center;
-    max-width: 100%; }
+    max-width: 90%;
+    margin: 0 2rem; }
+  .imgBody {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
   .divContainer__imagen {
-    text-align: center; } }
+    text-align: center; }
+  .divContainer__imagen {
+    width: 100%;
+    height: auto; }
+  .divContainer__texto p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px; } }
 
 @media (max-width: 420px) {
   /*Tamaño chico*/
@@ -197,29 +213,46 @@ main h2 {
 
 @media (max-width: 768px) {
   .div__quienesSomos {
-    margin: 100px 0;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    max-width: max-content;
-    display: flex; }
+    max-width: 100%; }
+  .div__quienesSomos h1 {
+    font-size: 2rem; }
+  .div__quienesSomos h2 {
+    font-size: 1rem; }
+  .PresentacionesCaja {
+    height: auto;
+    max-width: 420px;
+    margin: 0 auto; }
   .presentacion__ {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    align-items: center;
+    padding: 0 0 0 0;
+    width: 420px;
+    height: 100%; }
   .presentacion__texto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
-    width: max-content; }
+    justify-content: center;
+    font-size: 22px; }
   .textoPresentacion {
     text-align: center;
-    width: 100vw; }
-  .presentacion__imagen {
-    display: flex;
-    flex-direction: column;
-    align-items: center; } }
+    width: 420px;
+    margin-right: 2rem;
+    font-size: 1rem; }
+  .licenciado {
+    text-decoration: underline; }
+  .imagenPresentacion {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px 5px;
+    box-shadow: 1px 1px 2px 2px white;
+    margin-bottom: 100px; } }
 
 @media (max-width: 420px) {
   .div__quienesSomos {
@@ -234,7 +267,8 @@ main h2 {
     font-size: 1rem; }
   .PresentacionesCaja {
     height: auto;
-    max-width: 420px; }
+    max-width: 420px;
+    margin: 0 auto; }
   .presentacion__ {
     display: flex;
     flex-direction: column;
@@ -301,6 +335,34 @@ main h2 {
   color: black;
   text-align: center; }
 
+@media (max-width: 768px) {
+  containerServicios {
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    margin: 0 auto; }
+  .cardServicios {
+    display: inline-block;
+    width: 80vw;
+    height: 60vh;
+    margin: 40px 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease; }
+  .cardServicios:hover {
+    box-shadow: 5 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+  .imagenServicio {
+    width: 100%;
+    height: 65%;
+    object-fit: cover; }
+  .contenidoCard {
+    color: black;
+    text-align: center; } }
+
 @media (max-width: 420px) {
   .containerServicios {
     width: 20rem;
@@ -366,6 +428,22 @@ main h2 {
   width: 300px;
   max-width: 300px;
   min-width: 300px; }
+
+@media (max-width: 768px) {
+  .divDondeEstamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .formulario {
+    padding: 0px 0.5rem;
+    margin: 0 0 10px 20px; }
+  .cajaForm {
+    width: 90vw; }
+  .legend {
+    text-align: center; }
+  .mapa {
+    max-width: 420;
+    margin: 50px 3px; } }
 
 @media (max-width: 420px) {
   .divDondeEstamos {
