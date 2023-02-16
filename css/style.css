@@ -120,6 +120,13 @@ main h2 {
 
 @media (max-width: 420px) {
   /*Tamaño chico*/
+  .divContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 2rem; }
   .body {
     font-size: 16px; }
   main h2 {
@@ -128,6 +135,16 @@ main h2 {
     text-align: center;
     margin: 1rem 0px;
     align-items: center; }
+  .imgBody {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1rem; }
+  .divContainer__imagen {
+    width: 100%;
+    height: auto; }
   .divContainer__texto p {
     text-align: center;
     margin-top: 20px;
