@@ -394,7 +394,8 @@ main h2 {
 .divDondeEstamos {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 5% 10%; }
 
 .bodyDondeEstamos {
   background-image: linear-gradient(to bottom, black 80%, white);
