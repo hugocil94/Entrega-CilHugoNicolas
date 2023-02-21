@@ -43,6 +43,9 @@ nav {
   font-size: 20px;
   color: white; }
 
+.navbar-toggler-icon {
+  background-color: white; }
+
 .paddingFooter {
   padding: 12vw; }
 
